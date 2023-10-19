@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}API Geo{% endblock %}
+
+{% block body %}
+<form method="post" action="{{ path( 'app_home') }}" id="formCP">
+    <input type="text" name="codePostal" id="codePostal" placeholder="code postal">
+    <select name="selectNomsVilles" id="selectNomsVilles">
+    </select>
+    <input type="submit" value="Ok" id="submit">
+</form>
+<div id="infos">
+</div>
+{% endblock %}
