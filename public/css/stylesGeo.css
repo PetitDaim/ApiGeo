@@ -1,14 +1,26 @@
-#formCP, #infos{
-    width:90%;
-    padding:5%;
+#map { 
+    height: 90vh;
+    width: 100%;
+    z-index:100;
+}
+
+#formCP{
+    width:100%;
+    height:10vh;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: grey;
 }
 
 input, select{
     padding:5px;
-    margin:20px;
+    margin-left:20px;
+    margin-right:20px;
     border-radius: 5px;
+}
+
+#submit{
+    background-color: greenyellow;
 }
